@@ -1,28 +1,28 @@
 {
-  "name": "serverless-side-rendering-react-next",
-  "version": "0.0.1",
-  "description": "Sample repo for setting up Next and React on AWS Lambda with the Serverless Framework.",
-  "main": "index.js",
-  "scripts": {
-    "build": "next build",
-    "deploy": "next build && sls deploy"
-  },
-  "keywords": [],
-  "author": "Adnan Rahić",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.18.1",
-    "express": "^4.16.4",
-    "next": "^7.0.2",
-    "path-match": "^1.2.4",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "serverless-apigw-binary": "^0.4.4",
-    "serverless-domain-manager": "^2.6.0",
-    "serverless-http": "^1.6.0",
-    "url": "^0.11.0"
-  },
-  "devDependencies": {
-    "serverless-offline": "^5.12.1"
-  }
+	"name": "serverless-side-rendering-react-next",
+	"version": "0.0.1",
+	"description": "Sample repo for setting up Next and React on AWS Lambda with the Serverless Framework.",
+	"main": "index.js",
+	"scripts": {
+		"build": "next build",
+		"deploy": "next build && sls deploy"
+	},
+	"keywords": [],
+	"author": "Adnan Rahić",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.18.1",
+		"express": "^4.16.4",
+		"next": "^7.0.2",
+		"path-match": "^1.2.4",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3",
+		"serverless-apigw-binary": "^0.4.4",
+		"serverless-domain-manager": "^2.6.0",
+		"serverless-http": "^1.6.0",
+		"url": "^0.11.0"
+	},
+	"devDependencies": {
+		"serverless-offline": "^5.12.1"
+	}
 }
